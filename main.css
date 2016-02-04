@@ -1,0 +1,13 @@
+
+
+
+.img-container {
+  background-color: #000000;
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+
+.img-container img {
+  opacity: 0.5;
+}

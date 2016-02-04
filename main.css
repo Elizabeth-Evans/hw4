@@ -1,6 +1,16 @@
 
+/*  background image   */
+body{
+  background-image: url("./images/bg.jpg");
+  background-color: rgba(0,0,0,.56);
+  backgroung-size: cover;
+  background-blend-mode: color;
+  background-repeat:no-repeat;
+}
 
 
+
+/* -----------this made putting stuff on top tricky---------
 .img-container {
   background-color: #000000;
   background-size: cover;
@@ -10,4 +20,67 @@
 
 .img-container img {
   opacity: 0.5;
+}*/
+
+/* first navigation bar    */
+
+.navbar1{
+  vertical-align: top;
+  position:absolute;
+  display: inline;
+  margin:0 auto;
+  width: 40%;
+  height:10%;
+  padding-left: 20%;
 }
+
+.navbar1 ul{
+  list-style-type: none;
+  display:inline-block;
+  padding-left: 10%;
+}
+
+.navbar1 li {
+  display: inline;
+  padding-left: 5%
+}
+.navbar1 li:first-child{
+  color:white;
+  font-size: .5rem;
+/* -----need to adjust up a little bit-------*/
+}
+
+.navbar1 img{
+  height:35px;
+}
+
+.navbar1 li:nth-child(2){
+    border-left: white 2px dotted;
+    padding-left: 5%;
+}
+
+.navbar2{
+  position:relative;
+  display: inline;
+  margin:0 auto;
+  width: 100%;
+  height:10%;
+  padding-left: 50%;
+}
+
+.navbar2 ul{
+  list-style-type: none;
+  display:inline-block;
+  width:45%;
+  margin:0 auto;
+  padding-top: 13%;
+
+}
+
+.navbar2 li{
+  display: inline-block;
+  padding-right: 8%;
+  background-color:red;
+  color:white;
+}
+

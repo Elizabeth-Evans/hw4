@@ -3,11 +3,17 @@
 body{
   background-image: url("./images/bg.jpg");
   background-color: rgba(0,0,0,.56);
-  backgroung-size: cover;
+  background-size: cover;
   background-blend-mode: color;
   background-repeat:no-repeat;
 }
 
+div.wrapper{
+  margin:auto 0;
+  width:60%;
+  height:100%;
+  padding-left: 20%;
+}
 
 
 /* -----------this made putting stuff on top tricky---------
@@ -23,26 +29,31 @@ body{
 }*/
 
 /* first navigation bar    */
+header{
+  width:100%;
+  text-align: right;
+}
 
 .navbar1{
-  vertical-align: top;
-  position:absolute;
+  /*vertical-align: top;*/
+  /*position:absolute;*/
   display: inline;
-  margin:0 auto;
-  width: 40%;
-  height:10%;
-  padding-left: 20%;
+  /*margin:0 auto;*/
+  width:100%;
+  height:20%;
+  text-align: right;
+  /*padding-right: 0%;
+  padding-left: 50%;*/
 }
 
 .navbar1 ul{
   list-style-type: none;
   display:inline-block;
-  padding-left: 10%;
 }
 
 .navbar1 li {
   display: inline;
-  padding-left: 5%
+  /*padding-left: 5%*/
 }
 .navbar1 li:first-child{
   color:white;
@@ -61,19 +72,19 @@ body{
 
 .navbar2{
   position:relative;
-  display: inline;
+  display: inline-block;
   margin:0 auto;
   width: 100%;
-  height:6%;
-  padding-left: 10%;
+  /*height:6%;
+  padding-left: 10%;*/
 }
 
 .navbar2 ul{
   list-style-type: none;
   display:inline-block;
-  width:65%;
+  width:100%;
   margin:0 auto;
-  padding-top: 13%;
+  /*padding-top: 13%;*/
   text-align: center;
   position:relative;
 
@@ -81,25 +92,26 @@ body{
 
 .navbar2 li{
   display: inline-block;
-  width: 15%;
+  width: 23%;
   margin:0 auto;
   background-color:maroon;
   color:lightgrey;
   font-size: .3rem;
   padding:0%;
+  text-align: center;
 }
 
 .movingimg span{
-  width:70%;
+  width:100%;
   position:relative;
   display: inline-block;
   text-align: center;
-  padding-left: 14%;
+  /*padding-left: 14%;*/
   padding-top: 5%;
 }
 
 .movingimg img{
-  border: white 2px solid;
+  border: white 4px solid;
   width:100%;
   height:100%;
   position:relative;
@@ -108,15 +120,142 @@ body{
 }
 
 .articles{
-  width:70%;
+  width:100%;
   position:relative;
   display: inline-block;
-  text-align: center;
-  padding-left: 14%;
-  padding-top: 5%;
+  /*text-align: center;*/
+  /*padding-left: 14%;*/
+  /*padding-top: 5%;*/
 }
 
 .articles article{
-  text-align: center;
+  /*text-align: center;*/
   color:grey;
+  width:30%;
+  height:30%;
+  display:inline-block;
+  background-color: white;
+  border: white solid 5px;
+  font-size: .3rem;
+  padding-right: 1%;
+  vertical-align: top;
 }
+
+.articles h4{
+  color:black;
+  text-align: left;
+  font-size: .5rem;
+}
+
+.articles h5{
+  color: red;
+  text-align: center;
+}
+
+.date p{
+  color:lightgrey;
+  text-align: left;
+}
+.main p{
+  color:grey;
+  text-align: left;
+  font-size: .3rem;
+}
+
+/*    pictures of skaters    */
+
+.skaters{
+  display: inline-block;
+  color:white;
+  vertical-align: top;
+}
+
+.col-2{
+  background-image: url("./images/sk8er-2.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  width:30%;
+  height: 350px;
+  margin:auto 0;
+  display: inline-block;
+  position:relative;
+  border:white 2px solid;
+  vertical-align: top;
+
+}
+/*.col-2 img{
+  width:100%;
+  display: inline-block;
+}*/
+
+.col-1{
+  width:66%;
+  height:350px;
+  display: inline-block;
+  position:relative;
+  border:white 2px solid;
+}
+
+.row-1{
+  width:100%;
+  height:48%;
+  display: inline-block;
+}
+
+.rowcol-1{
+  background-image: url("images/sk8er-4.png");
+  width:49%;
+  height: 100%;
+  display: inline-block;
+}
+/*.rowcol-1 img{
+  width: 48%;
+  display: inline-block;
+}*/
+
+.rowcol-2{
+  background-image: url("./images/sk8er-3.png");
+  width:49%;
+  height: 100%;
+  display: inline-block;
+}
+/*.rowcol-2 img{
+  width:100%;
+  display: inline-block;
+}*/
+.row-2{
+  background-image: url("./images/sk8er-1.png");
+  width:100%;
+  height: 48%;
+  display: inline-block;
+}
+
+/*    skateboards   */
+.skateboards div{
+  list-style-type: none;
+  display:inline-block;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+  position:relative;
+}
+
+.skateboards ul{
+  list-style-type: none;
+  display:inline-block;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+  position:relative;
+}
+
+.skateboards li{
+  display: inline-block;
+  width: 8.5%;
+  margin:0 auto;
+  background-color:white;
+  padding:.75%;
+  text-align: center;
+}
+
+
